@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+:root {
+    /* font-family: "Poetsen One", sans-serif; */
+    --primaryfont: "Poetsen One", sans-serif;
+  }
+
 body {
     background:/* rgb(70, 91, 99); */
     position: absolute;
@@ -11,9 +18,37 @@ body {
 p {
     background-color: rgba(18, 23, 156, 0.3);
     width: 600px;
-    text-indent: 1.5em
+    margin-left: 50%;
+    margin-right: 50%;
+    position: relative;
+    top: 45px; */
 }
 
 h1 {
-    
+    font-family: var(--primaryfont);
+    background-color: rgb(127, 255, 212, 0.6);
+    margin-left:50%;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    z-index: 101;
+}
+
+h3 {
+    font-family: var(--primaryfont);
+    position: relative;
+    top: 60px;
+    left: 50%;
+}
+
+span {
+    color: var(--color2);
+  
+  background: var(--color3);
+  margin: 3px;
+  padding-bottom: 3px;
+
+  font-size: 2rem;
+  float: left;
+
 }
