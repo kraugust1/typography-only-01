@@ -1,3 +1,19 @@
 body {
-    background: rgb(48, 91, 99);
+    background:/* rgb(70, 91, 99); */
+    position: absolute;
+    width: 1215px;
+    height: 949px;
+    background: radial-gradient(50% 81.96% at 50% 50%, #1EB6E7 0%, #3AEAC0 16.67%, #1EB6E7 33.33%, #3AEAC0 50%, #1EB6E7 66.67%, #3AEAC0 83.33%, #1EB6E7 100%);
+
+
+}
+
+p {
+    background-color: rgba(18, 23, 156, 0.3);
+    width: 600px;
+    text-indent: 1.5em
+}
+
+h1 {
+    
 }
