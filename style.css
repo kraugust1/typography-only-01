@@ -21,17 +21,17 @@ p {
     margin-left: 50%;
     margin-right: 50%;
     position: relative;
-    top: 45px; */
+    top: 45px;
 }
 
 h1 {
     font-family: var(--primaryfont);
     background-color: rgb(127, 255, 212, 0.6);
-    margin-left:50%;
     position: fixed;
     width: 100%;
     top: 0%;
     z-index: 101;
+    text-indent: 50%;
 }
 
 h3 {
@@ -42,10 +42,10 @@ h3 {
 }
 
 span {
-    color: var(--color2);
-  
-  background: var(--color3);
-  margin: 3px;
+  background: #1EB6E7;
+  margin: 6px;
+  padding-left: 7px;
+  padding-right: 7px;
   padding-bottom: 3px;
 
   font-size: 2rem;
