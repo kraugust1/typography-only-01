@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
 
 :root {
     /* font-family: "Poetsen One", sans-serif; */
     --primaryfont: "Poetsen One", sans-serif;
+     /* font-family: "Forum", serif; */
+    --secondaryfont: "Forum", serif;
   }
 
 body {
@@ -16,12 +19,18 @@ body {
 }
 
 p {
-    background-color: rgba(18, 23, 156, 0.3);
+  /* rgba(18, 23, 156, 0.3);*/
+    font-family: var(--secondaryfont);
+    background-color: rgba(30, 96, 152, 0.3);
+    border: solid 5px;
+    border-radius: 6px;
+    border-color: #C3EEE4;
+    padding: 10px;
     width: 600px;
     margin-left: 50%;
     margin-right: 50%;
     position: relative;
-    top: 45px;
+    top: 45px; */
 }
 
 h1 {
@@ -42,11 +51,17 @@ h3 {
 }
 
 span {
-  background: #1EB6E7;
-  margin: 6px;
-  padding-left: 7px;
-  padding-right: 7px;
-  padding-bottom: 3px;
+  
+  color: #24846D; 
+  background: #87D8F2;
+  margin-top: 13px;
+  margin-left: 6px;
+  margin-right: 10px;
+  margin-bottom: -2px;
+  padding: 4px;
+  border: solid 4px;
+  border-radius: 6px;
+  
 
   font-size: 2rem;
   float: left;
